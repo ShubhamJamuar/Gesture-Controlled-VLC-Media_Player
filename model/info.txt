@@ -1,0 +1,1 @@
+Resnet-101 Model trained on 20bn jester dataset
