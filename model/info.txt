@@ -1,1 +1,2 @@
-Resnet-101 Model trained on 20bn jester dataset
+Resnet-101 Model trained on 20bn jester dataset<br>
+Download from link:- https://drive.google.com/file/d/14zT5Fm-dMzV8dQzeAvSdGAqNAOwqiE4o/view?usp=sharing and place in the folder
