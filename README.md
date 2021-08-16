@@ -9,7 +9,7 @@ Supported Gestures: <br>
 
 About:
 The project uses a ML Model especifically Resnet-101, trained on 20bn-jester-v1 dataset (22.8 GB)(Link-https://20bn.com/datasets/jester).<br>
-The model is able to classify 27 different Hand Gestures whose can be found on the above link.<br> 
+The model is able to classify 27 different Hand Gestures whose description can be found on the above link.<br> 
 The predictions made by the model are then linked with keyboard which simulates pressing of keys coressponding to a particular gesture.<br>
 This project can be extended to Gesture Controlled Powerpoint Slides, Word, simple game controls and various other processes. <br>
 The model accuracy is 93% on validation data and 99% on train data.<br>
@@ -28,3 +28,4 @@ In order to use the application,follow the steps below:<br>
 Future Updates:<br>
 1. Remove the need of changing the directory in Classification.ipynb <br>
 2. Remove the need of manually opening VLC Media player. <br>
+3. Usage of the same model to automate other applications like MS Word,Powerpoint and lot more.<br>
