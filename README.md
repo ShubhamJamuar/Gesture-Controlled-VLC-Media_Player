@@ -1,5 +1,5 @@
 # Gesture-Controlled-VLC-Media_Player
-Gesture Controlled Media Player that recognizes hand gestures.
+Gesture Controlled Media Player that recognizes hand gestures.<br>
 Supported Gestures: <br>
 1.Swipe Left -> Forward by 10 seconds <br>
 2.Swipe Right -> Rewind by 10 seconds <br>
@@ -17,8 +17,8 @@ The model accuracy is 93% on validation data and 99% on train data.<br>
 <b>Instructions:</b><br>
 In order to use the application,follow the steps below:<br>
 1. Download the repository as a ZIP and extract to your working directory<br>
-2. Go to model folder and download the <i>resnetmodel</i> through the link provided in <i>info.txt</i><br>
-3. Run <i>pip install requirements.txt</i><br>
+2. Go to model folder and download the <i>resnetmodel</i> through the link provided in <i>info.txt and place it within the model folder itself.</i><br>
+3. Run <i>pip install requirements.txt.</i><br>
 4. Open jupyter notebook and run Classification.ipynb.<br>
 5. Change the directory mentioned inside the load_model command, i.e. load_model(r"D:\20bn jester\model\resnet_3d_model\resnetmodel.hdf5") to load_model(r"Location where the downloaded model is kept"/resnetmodel.hdf5) and pd.read_csv(r"D:\20bn jester\jester-v1-labels.csv",header=None) to pd.read_csv(r"Your Working Directory/jester-v1-labels.csv",header=None).<br>
 6. Run all the cells. <br>
@@ -26,6 +26,7 @@ In order to use the application,follow the steps below:<br>
 
 
 Future Updates:<br>
-1. Remove the need of changing the directory in Classification.ipynb <br>
-2. Remove the need of manually opening VLC Media player. <br>
-3. Usage of the same model to automate other applications like MS Word,Powerpoint and lot more.<br>
+1. Make it an independent application. <br>
+2. Remove the need of changing the directory in Classification.ipynb <br>
+3. Remove the need of manually opening VLC Media player. <br>
+4. Usage of the same model to automate other applications like MS Word,Powerpoint and lot more.<br>
